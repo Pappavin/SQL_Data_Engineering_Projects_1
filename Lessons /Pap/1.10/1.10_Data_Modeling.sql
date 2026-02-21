@@ -1,2 +1,2 @@
-SELECT DISTINCT job_title_short
+SELECT TOP 10 job_title_short
 FROM job_postings_fact;
