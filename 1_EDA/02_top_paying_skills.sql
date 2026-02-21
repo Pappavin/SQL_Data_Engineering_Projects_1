@@ -9,6 +9,7 @@ Question: What are the highest-paying skills for data engineers?
 
 SELECT 
     sd.skills,
+    jpf.job_title_short,
     ROUND(MEDIAN(jpf.salary_year_avg), 0) AS median_salary,
     COUNT(jpf.*) AS skill_count
 FROM job_postings_fact jpf
