@@ -25,7 +25,7 @@ GROUP BY
 HAVING
     COUNT(sd.skills) >= 100
 ORDER BY
-    optimal_score DESC
+    optimal_score ASC
 LIMIT 25;
 
 /*
