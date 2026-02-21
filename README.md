@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/25457646/README.md)
 # 🔍 Exploratory Data Analysis w/ SQL: Job Market Analytics
 ![Data Pipeline Flowchart](Images/1_1_Project1_EDA.png)
 
