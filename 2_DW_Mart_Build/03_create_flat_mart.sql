@@ -49,6 +49,7 @@ LEFT JOIN
 GROUP BY ALL;
 
 -- Data Validation
+
 SELECT 'Flat Mart Job Postings' AS table_name, COUNT(*) AS record_count FROM flat_mart.job_postings;
 
 SELECT '=== Flat Mart Sample ===' AS info;
